@@ -1,0 +1,27 @@
+/*
+Font: 		Arquitecta
+Style: 		Bold
+URL: 		https://www.youworkforthem.com/font/T4939/arquitecta
+Foundry: 	LatinoType
+Foundry: 	https://www.youworkforthem.com/designer/220/latinotype
+Copyright:	Copyright (c) 2013 by Miguel & Daniel Hernndez. All rights reserved.
+Version: 	17
+Created:	March 20, 2015
+License: 	https://www.youworkforthem.com/font-license 
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted 
+			from using the WebFonts(s) listed without a purchased license. 
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'ArquitectaBold';
+	src: url('arquitecta-bold.eot');
+	src: url('arquitecta-bold.eot?#iefix') format('embedded-opentype'),
+             url('arquitecta-bold.woff2') format('woff2'),
+	     url('arquitecta-bold.woff') format('woff'),
+	     url('arquitecta-bold.ttf') format('truetype'),
+	     url('arquitecta-bold.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

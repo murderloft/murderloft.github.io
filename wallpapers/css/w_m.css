@@ -1,0 +1,354 @@
+@media (max-width: 950px) {
+
+.fullscreen-bg_video_d {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+ 
+.fullscreen-bg_video_m {
+    display: block;
+    position: absolute;
+    background-image: url(images/ml_bg_3.gif);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.headerbutton {
+    display: inline-block;
+    background-color: #3C6FFB;
+    position: relative;
+    border-radius: 33px;
+    max-width: 1500px;
+    left: -50%;
+    transition-duration: .4s;
+}
+
+.headerbuttontext {
+    display: inline-block;
+    font-family: 'ArquitectaBold', Helvetica, Arial, Sans-Serif;
+    color: white;
+    font-size: 2vw;
+    letter-spacing: .5vw;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 40px;
+    padding-right: 30px;
+    transition-duration: .4s;
+    width: 340px;
+}
+
+.button_mover {
+    display: block;
+    margin: 0 auto;;
+    position: absolute;
+    left: 50%;
+    margin-top: 4px;
+}
+
+.header {
+    display: block;
+    min-height: 220px;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    overflow: hidden;
+    z-index: 2;
+    margin-bottom: -180px;
+}
+
+.logo {
+    display: block;
+    background: url(images/logo_lockup_a.svg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position: absolute;
+    width: 1246px;
+    height: 178px;
+    top: 60px;
+    left: 50%;
+    margin-left: -623px;
+    margin-top: -89px;
+    transform: scale(0.25,0.25);
+}
+
+.stickycontentlogo {
+    display: block;
+    background: url(images/logo_lockup_b.svg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position: absolute;
+    width: 1246px;
+    height: 178px;
+    top: -52px;
+    left: -490px;
+    transform: scale(0.18,0.18);
+}
+
+.stickycontentbutton {
+    display: block;
+    background-color: rgba(255,255,255,0.25);
+    position: absolute;
+    border-radius: 30vw;
+    max-width: 1000px;
+    transition-duration: .4s;
+    right: 12px;
+    top: 12px;
+}
+
+.stickycontentbuttontext {
+    display: inline-block;
+    font-family: 'ArquitectaBold', Helvetica, Arial, Sans-Serif;
+    color: white;
+    font-size: 12pt;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 21px;
+    padding-right: 21px;
+    transition-duration: .4s;
+}
+
+.whattheeff {
+    display: block;
+    position: relative;
+    top: 120px;
+    margin: 0 auto;
+    max-width: 80vw;
+}
+
+.headertext {
+    display: block;
+    font-size: 12pt;
+    font-family: 'ArquitectaMedium', Helvetica, Arial, Sans-Serif;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    letter-spacing: 5px;
+    padding-bottom: 40px;
+    line-height: 20px;
+}
+
+.video {
+    display: block;
+    position: relative;
+    top: -180px;
+    width: 100vw;
+    min-height: 332px;
+    overflow: hidden;
+    background-color: #000000;
+    z-index: -1;
+}
+
+.stickycontent {
+    display: block;
+    margin: 0 auto;
+    height: 60px;
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    background-color: rgba(0,0,0,.0);
+}
+
+.contentitem {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    position: relative;
+    background-color: black;
+    overflow: hidden !important;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.contentitembg {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+}
+
+.col1080 {
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    max-width: 1080px;
+    position: relative;
+    background-color: transparent;
+}
+
+.contentitempreviewd {
+    display: block;
+    margin: 0 auto;
+    max-height: 563px;
+    max-width: 1000px;
+    position: relative;
+    border: 40px solid black;
+    border-radius: 40px;
+    margin-bottom: 50px;
+}
+
+.contentitempreviewm {
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    max-width: 30%;
+    position: relative;
+    border-left: .6vw solid black;
+    border-right: .6vw solid black;
+    border-top: 3vw solid black;
+    border-bottom: 3vw solid black;
+    border-radius: 3vw;
+    margin-bottom: 25px;
+    overflow: visible;
+    background-color: black;
+}
+
+.contentitemscreenm {
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+    position: relative;
+    border-radius: 2vw;
+    overflow: hidden;
+}
+
+.contentitemname {
+    display: inline-block;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    margin-bottom: 15px;
+    left: 6px;
+    position: relative;
+    text-align: center;
+    background-color: transparent;
+    font-size: 5vw;
+    font-family: 'ArquitectaBook', Helvetica, Arial, Sans-Serif;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.contentitemdescription {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: transparent;
+    font-size: 3vw;
+    font-family: 'ArquitectaBook', Helvetica, Arial, Sans-Serif;
+    color: white;
+    line-height: 3.5vw;
+}
+
+.contentitembuttonarea {
+    display: block;
+    max-width: 726px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.contentitembutton {
+    display: block;
+    background-color: rgba(255,255,255,0.25);
+    position: relative;
+    border-radius: 30vw;
+    max-width: 1000px;
+    transition-duration: .4s;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.contentitembuttontext {
+    display: block;
+    font-family: 'ArquitectaBold', Helvetica, Arial, Sans-Serif;
+    color: white;
+    font-size: 2vw;
+    letter-spacing: .6vw;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    padding-left: 35px;
+    padding-right: 25px;
+    transition-duration: .4s;
+}
+
+.mobilehide {
+    display: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a:active {
+    text-decoration: none;
+    color: white;
+}
+
+.aspectkeep {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+.aspectkeep iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.nameposition {
+    width: auto;
+    display: inline-block;
+    position: relative;
+    left: 0%;
+    margin: 0 auto;
+}
+}

@@ -1,0 +1,711 @@
+body {
+	margin: 0;
+	background-color: #ffffff;
+	cursor: default;
+	font-size: 10px;
+	height: 100%;
+	width: 100%;
+    overflow: hidden;
+}
+
+.header {
+    display: block;
+    min-height: 220px;
+    width: 100vw;
+    position: relative;
+    top: 0px;
+    overflow: visible;
+    margin-bottom: -100px;
+}
+
+.logo {
+	display: block;
+	background: url(images/logo_lockup_a.png);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	position: absolute;
+	width: 1246px;
+	height: 178px;
+	top: 60px;
+	left: 50%;
+	margin-left: -623px;
+	margin-top: -89px;
+	transform: scale(0.25,0.25);
+}
+
+.whattheeff {
+    display: block;
+    position: relative;
+    top: 120px;
+    margin: 0 auto;
+    max-width: 80vw;
+}
+
+.headertext {
+    display: block;
+    font-size: 12pt;
+    font-family: 'ArquitectaMedium', Helvetica, Arial, Sans-Serif;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    letter-spacing: 5px;
+    padding-bottom: 40px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #3C6FFB;
+    position: relative;
+    border-radius: 33px;
+    max-width: 1000px;
+    left: -50%;
+    transition-duration: .4s;
+}
+
+.button:hover {
+    display: inline-block;
+    background-color: #3C6FFB;
+    position: relative;
+    border-radius: 33px;
+    max-width: 1000px;
+    left: -50%;
+    transition-duration: .4s;
+}
+
+.buttontext {
+    display: inline-block;
+    font-family: 'ArquitectaBold', Helvetica, Arial, Sans-Serif;
+    color: white;
+    font-size: 15pt;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 50px;
+    padding-right: 40px;
+    transition-duration: .4s;
+}
+
+.button:hover .buttontext {
+    letter-spacing: 15px;
+    transition-duration: .4s;
+}
+
+.button_mover {
+    display: block;
+    margin: 0 auto;;
+    position: absolute;
+    left: 50%;
+}
+
+.video {
+	display: block;
+    position: relative;
+    top: -100px;
+    width: 100vw;
+    min-height: 255px;
+    overflow: hidden;
+    background-color: #000000;
+    z-index: -100;
+}
+
+.fullscreen-bg_video_d {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.fullscreen-bg_video_m {
+    display: none;
+    position: absolute;
+    background-image: url(images/ml_bg_3.gif);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+@media (max-width: 1260px) {
+
+.fullscreen-bg_video_d {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+ 
+.fullscreen-bg_video_m {
+    display: block;
+    position: absolute;
+    background-image: url(images/ml_bg_3.gif);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.button {
+    display: inline-block;
+    background-color: #3C6FFB;
+    position: relative;
+    border-radius: 33px;
+    max-width: 1500px;
+    left: -50%;
+    transition-duration: .4s;
+}
+
+.button:hover {
+    display: inline-block;
+    background-color: #3C6FFB;
+    position: relative;
+    border-radius: 33px;
+    max-width: 1500px;
+    left: -50%;
+    transition-duration: .4s;
+}
+
+.buttontext {
+    display: inline-block;
+    font-family: 'ArquitectaBold', Helvetica, Arial, Sans-Serif;
+    color: white;
+    font-size: 12pt;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 40px;
+    padding-right: 30px;
+    transition-duration: .4s;
+    width: 340px;
+}
+
+.button:hover .buttontext {
+    letter-spacing: 12px;
+    transition-duration: .4s;
+    width: 420px;
+}
+
+.button_mover {
+    display: block;
+    margin: 0 auto;;
+    position: absolute;
+    left: 50%;
+    margin-top: 4px;
+}
+}
+
+.stickycontent {
+	display: block;
+	margin: 0 auto;
+	height: 60px;
+	width: 100vw;
+	position: fixed;
+	top: 0px;
+	background-color: rgba(0,0,0,.3);
+	z-index: -101;
+}
+
+.intro {
+	display: block;
+	margin: 0 auto;
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+	background: url(images/SIERRA_HIGH_.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	z-index: -102;
+}
+
+.lcol {
+    display: inline-block;
+    height: 100vh;
+    position: absolute;
+    width: 50vw;
+    left: 0vw;
+}
+
+.rcol {
+    display: inline-block;
+    height: 100vh;
+    position: absolute;
+    width: 50vw;
+    left: 50vw;
+}
+
+.fattext {
+    display: block;
+    color: white;
+    font-size: 12vw;
+    font-family: Helvetica, Arial;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1vw;
+    line-height: 10vw;
+    text-align: left;
+    text-indent: 1.4vw;
+    margin-left: 5vw;
+    position: absolute;
+    top: 20vh;
+}
+
+.infotext {
+    display: block;
+    color: white;
+    font-size: 3vw;
+    font-family: 'ArquitectaMedium', Helvetica, Arial, Sans-Serif;
+    color: white;
+    line-height: 4vw;
+    text-align: left;
+    margin-left: 5vw;
+    position: absolute;
+    top: 25vh;
+    width: 40vw;
+}
+
+.wall1 {
+    display: block;
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: black;
+    z-index: -102;
+}
+
+.wall1th {
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    width: 1000px;
+    top: 120px;
+    left: 7px;
+    position: relative;
+    text-align: center;
+    background-color: transparent;
+    font-size: 38pt;
+    font-family: 'ArquitectaThin', Helvetica, Arial, Sans-Serif;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: white;
+    z-index: -102;
+}
+
+.wall1bg {
+    display: block;
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background: url(images/prisms_series/thumb/SUMMER_DESKTOP_THUMB_BLURRED.jpg);
+    opacity: .5;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    z-index: -102;
+}
+
+.wall1p {
+    display: block;
+    margin: 0 auto;
+    min-height: 563px;
+    min-width: 1000px;
+    position: relative;
+    border: 40px solid black;
+    border-radius: 40px;
+    top: 100px;
+    background-image: url(images/prisms_series/thumb/SUMMER_DESKTOP_THUMB.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -102;
+}
+
+.wall2 {
+    display: block;
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: black;
+    z-index: -102;
+}
+
+.wall2th {
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    width: 1000px;
+    top: 120px;
+    left: 7px;
+    position: relative;
+    text-align: center;
+    background-color: transparent;
+    font-size: 38pt;
+    font-family: 'ArquitectaThin', Helvetica, Arial, Sans-Serif;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: white;
+    z-index: -102;
+}
+
+.wall2bg {
+    display: block;
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background: url(images/prisms_series/thumb/RACEDAY_DESKTOP_THUMB_BLURRED.jpg);
+    opacity: .5;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    z-index: -102;
+}
+
+.wall2p {
+    display: block;
+    margin: 0 auto;
+    min-height: 563px;
+    min-width: 1000px;
+    position: relative;
+    border: 40px solid black;
+    border-radius: 40px;
+    top: 100px;
+    background-image: url(images/prisms_series/thumb/RACEDAY_DESKTOP_THUMB.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -102;
+}
+
+.wall3 {
+    display: block;
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: black;
+    z-index: -102;
+}
+
+.wall3th {
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    width: 1000px;
+    top: 120px;
+    left: 7px;
+    position: relative;
+    text-align: center;
+    background-color: transparent;
+    font-size: 38pt;
+    font-family: 'ArquitectaThin', Helvetica, Arial, Sans-Serif;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: white;
+    z-index: -102;
+}
+
+.wall3bg {
+    display: block;
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background: url(images/prisms_series/thumb/TIFFANY_TRAIL_DESKTOP_THUMB_BLURRED.jpg);
+    opacity: .5;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    z-index: -102;
+}
+
+.wall3p {
+    display: block;
+    margin: 0 auto;
+    min-height: 563px;
+    min-width: 1000px;
+    position: relative;
+    border: 40px solid black;
+    border-radius: 40px;
+    top: 100px;
+    background-image: url(images/prisms_series/thumb/TIFFANY_TRAIL_DESKTOP_THUMB.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -102;
+}
+
+.wall4 {
+    display: block;
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: black;
+    z-index: -102;
+}
+
+.wall4th {
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    width: 1000px;
+    top: 120px;
+    left: 7px;
+    position: relative;
+    text-align: center;
+    background-color: transparent;
+    font-size: 38pt;
+    font-family: 'ArquitectaThin', Helvetica, Arial, Sans-Serif;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: white;
+    z-index: -102;
+}
+
+.wall4bg {
+    display: block;
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background: url(images/prisms_series/thumb/CH99_DESKTOP_THUMB_BLURRED.jpg);
+    opacity: .5;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    z-index: -102;
+}
+
+.wall4p {
+    display: block;
+    margin: 0 auto;
+    min-height: 563px;
+    min-width: 1000px;
+    position: relative;
+    border: 40px solid black;
+    border-radius: 40px;
+    top: 100px;
+    background-image: url(images/prisms_series/thumb/CH99_DESKTOP_THUMB.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -102;
+}
+
+.wall5 {
+    display: block;
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: black;
+    z-index: -102;
+}
+
+.wall5th {
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    width: 1000px;
+    top: 120px;
+    left: 7px;
+    position: relative;
+    text-align: center;
+    background-color: transparent;
+    font-size: 38pt;
+    font-family: 'ArquitectaThin', Helvetica, Arial, Sans-Serif;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: white;
+    z-index: -102;
+}
+
+.wall5bg {
+    display: block;
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background: url(images/prisms_series/thumb/CINDERELLA_DESKTOP_THUMB_BLURRED.jpg);
+    opacity: .5;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    z-index: -102;
+}
+
+.wall5p {
+    display: block;
+    margin: 0 auto;
+    min-height: 563px;
+    min-width: 1000px;
+    position: relative;
+    border: 40px solid black;
+    border-radius: 40px;
+    top: 100px;
+    background-image: url(images/prisms_series/thumb/CINDERELLA_DESKTOP_THUMB.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -102;
+}
+
+.wall6 {
+    display: block;
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: black;
+    z-index: -102;
+}
+
+.wall6th {
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    width: 1000px;
+    top: 120px;
+    left: 7px;
+    position: relative;
+    text-align: center;
+    background-color: transparent;
+    font-size: 38pt;
+    font-family: 'ArquitectaThin', Helvetica, Arial, Sans-Serif;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: white;
+    z-index: -102;
+}
+
+.wall6bg {
+    display: block;
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background: url(images/prisms_series/thumb/CUMULUS_DESKTOP_THUMB_BLURRED.jpg);
+    opacity: .5;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    z-index: -102;
+}
+
+.wall6p {
+    display: block;
+    margin: 0 auto;
+    min-height: 563px;
+    min-width: 1000px;
+    position: relative;
+    border: 40px solid black;
+    border-radius: 40px;
+    top: 100px;
+    background-image: url(images/prisms_series/thumb/CUMULUS_DESKTOP_THUMB.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -102;
+}
+
+.wall7 {
+    display: block;
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: black;
+    z-index: -102;
+}
+
+.wall7th {
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    width: 1000px;
+    top: 120px;
+    left: 7px;
+    position: relative;
+    text-align: center;
+    background-color: transparent;
+    font-size: 38pt;
+    font-family: 'ArquitectaThin', Helvetica, Arial, Sans-Serif;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: white;
+    z-index: -102;
+}
+
+.wall7bg {
+    display: block;
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background: url(images/prisms_series/thumb/GOODNIGHT_MOON_DESKTOP_THUMB_BLURRED.jpg);
+    opacity: .5;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    z-index: -102;
+}
+
+.wall7p {
+    display: block;
+    margin: 0 auto;
+    min-height: 563px;
+    min-width: 1000px;
+    position: relative;
+    border: 40px solid black;
+    border-radius: 40px;
+    top: 100px;
+    background-image: url(images/prisms_series/thumb/GOODNIGHT_MOON_DESKTOP_THUMB.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -102;
+}
+
+.col {
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    min-width: 1080px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -540px;
+    background-color: transparent;
+}
